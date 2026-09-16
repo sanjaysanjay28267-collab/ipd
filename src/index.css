@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #1B5E20;
+    --primary-dark: #0D3311;
+    --primary-light: #2E7D32;
+    --accent: #00695C;
+    --accent-light: #00897B;
+    --payout: #F9A825;
+    --payout-dark: #E65100;
+    --bg-warm: #FAFAF7;
+    --card-bg: #FFFFFF;
+    --text-primary: #212121;
+    --text-muted: #616161;
+    --border-subtle: #E0E0DC;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--text-primary);
+    background-color: var(--bg-warm);
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .font-mono-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Layered Recycling Facility Aesthetic Overlay */
+.facility-backdrop {
+  background-color: #FAFAF7;
+  background-image: 
+    radial-gradient(at 100% 0%, rgba(0, 105, 92, 0.07) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(27, 94, 32, 0.08) 0px, transparent 50%),
+    linear-gradient(180deg, rgba(250, 250, 247, 0.94) 0%, rgba(245, 245, 240, 0.96) 100%);
+  background-attachment: fixed;
+}
+
+/* Custom 16px card styling */
+.vg-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 2px 8px -2px rgba(27, 94, 32, 0.06), 0 1px 3px 0 rgba(0, 0, 0, 0.04);
+}
+
+.vg-card-glass {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  border: 1px solid rgba(229, 231, 235, 0.8);
+}
+
+/* Thermal receipt paper styling */
+.receipt-paper {
+  background: #FFFFF8;
+  border: 1px dashed #BDBDBD;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+}

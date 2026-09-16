@@ -1,0 +1,6 @@
+{
+  "name": "VeriGrade S3",
+  "description": "The Waste Truth Infrastructure — Transaction-grading conveyor, AMCF sensor fusion, and scrap trader verification system.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

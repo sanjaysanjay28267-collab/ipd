@@ -1,0 +1,22 @@
+{
+  "name": "VeriGrade S3 — The Waste Truth Infrastructure",
+  "short_name": "VeriGrade S3",
+  "description": "Grade mixed scrap objectively on a conveyor; produce trusted receipts, audit reports, fire protection, and reputation scores.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAFAF7",
+  "theme_color": "#1B5E20",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
